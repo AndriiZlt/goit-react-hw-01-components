@@ -8,9 +8,7 @@ export const Table = styled.table`
   border: none;
 `;
 
-export const TableHead = styled.thead`
-  height: 60px;
-`;
+export const TableHead = styled.thead``;
 
 export const HeadRow = styled.th`
   background-color: rgba(0, 188, 213, 255);
@@ -19,6 +17,7 @@ export const HeadRow = styled.th`
   font-weight: 400;
   letter-spacing: 4px;
   text-transform: uppercase;
+  height: 60px;
 `;
 
 export const TableBody = styled.tbody``;
