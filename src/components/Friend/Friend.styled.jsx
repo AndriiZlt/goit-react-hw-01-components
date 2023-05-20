@@ -30,11 +30,10 @@ export const Status = styled.div`
   background-color: green;
   margin-right: 20px;
   background-color: ${props => {
-    switch (props.isOnline) {
-      case true:
-        return 'green';
-      case false:
-        return 'red';
+    if (props.isOnline) {
+      return 'green';
+    } else {
+      return 'red';
     }
   }};
 `;
