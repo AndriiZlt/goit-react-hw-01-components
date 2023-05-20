@@ -31,9 +31,9 @@ export const Row = styled.tr`
   color: rgba(124, 129, 135, 255);
   background-color: ${props => {
     if (props.index % 2 === 0) {
-      return '#ecf1f4';
-    } else {
       return 'white';
+    } else {
+      return '#ecf1f4';
     }
   }};
 `;
