@@ -13,12 +13,13 @@ export const TableHead = styled.thead`
   font-size: 23px;
   font-weight: 400;
   letter-spacing: 4px;
-  color: #fff;
+
   text-transform: uppercase;
 `;
 
 export const HeadRow = styled.th`
   background-color: rgba(0, 188, 213, 255);
+  color: #fff;
 `;
 
 export const TableBody = styled.tbody``;
