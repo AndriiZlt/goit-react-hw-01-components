@@ -7,6 +7,14 @@
   justify-content: center;
 }
 
+.item:last-child {
+  border-bottom-right-radius: 3px;
+}
+
+.item:first-child {
+  border-bottom-left-radius: 3px;
+}
+
 .label {
   font-size: 18px;
   font-weight: 500;
