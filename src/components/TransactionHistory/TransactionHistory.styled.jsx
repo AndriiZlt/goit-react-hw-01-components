@@ -26,9 +26,10 @@ export const TableBody = styled.tbody``;
 export const Row = styled.tr`
   height: 60px;
   font-size: 23px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 4px;
   text-transform: capitalize;
+  color: rgba(124, 129, 135, 255);
   background-color: ${props => {
     if (props.index % 2 === 0) {
       return '#ecf1f4';
