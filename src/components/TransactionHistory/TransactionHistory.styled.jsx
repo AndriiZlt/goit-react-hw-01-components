@@ -10,16 +10,15 @@ export const Table = styled.table`
 
 export const TableHead = styled.thead`
   height: 60px;
-  font-size: 23px;
-  font-weight: 400;
-  letter-spacing: 4px;
-
-  text-transform: uppercase;
 `;
 
 export const HeadRow = styled.th`
   background-color: rgba(0, 188, 213, 255);
   color: #fff;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 `;
 
 export const TableBody = styled.tbody``;
